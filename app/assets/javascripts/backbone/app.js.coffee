@@ -5,7 +5,7 @@
   App.addRegions 
     headerRegion: "#header-region"
     mainRegion: "#main-region"
-    footerRegion: "footer-region"
+    footerRegion: "#footer-region"
 
   App.addInitializer ->
     App.module("FooterApp").start()

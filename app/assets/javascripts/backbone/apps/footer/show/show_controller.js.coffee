@@ -2,5 +2,8 @@
 
   Show.Controller =
     showFooter: ->
-      console.log('This is the footer show controller')
+      footerView = @getFooterView()
+      App.footerRegion.show footerView
 
+    getFooterView: ->
+      new Show.Footer

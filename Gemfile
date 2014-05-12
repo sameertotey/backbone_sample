@@ -65,3 +65,6 @@ gem 'omniauth'
 gem 'figaro'
 gem 'omniauth-twitter'
 
+gem 'eco'
+gem 'compass-rails'
+gem 'bootstrap-sass'
