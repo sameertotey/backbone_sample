@@ -7,5 +7,7 @@
 
 :javascript 
   $(function(){
-    Demo.start()
+    Demo.start({
+      currentUser: gon.current_user
+    })
   })

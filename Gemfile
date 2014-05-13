@@ -68,3 +68,8 @@ gem 'omniauth-twitter'
 gem 'eco'
 gem 'compass-rails'
 gem 'bootstrap-sass'
+
+gem 'rabl'
+gem 'oj'
+gem 'gon'
+gem 'js_routes'
