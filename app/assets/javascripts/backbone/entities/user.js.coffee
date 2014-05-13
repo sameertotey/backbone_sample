@@ -14,10 +14,10 @@
 			users = new Entities.UsersCollection
 			users.fetch
 				success: ->
-					cb users
+          cb users
 	
-	App.reqres.addHandler "set:current:user", (currentUser) ->
+	App.reqres.setHandler "set:current:user", (currentUser) ->
 		API.setCurrentUser currentUser
 	
-	App.reqres.addHandler "user:entities", (cb) ->
-		API.getUserEntities cb
+	App.reqres.setHandler "user:entities", (cb) ->
+    API.getUserEntities cb
